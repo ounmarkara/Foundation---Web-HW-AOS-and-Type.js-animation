@@ -1,1 +1,1 @@
-# Foundation---Web-HW-AOS-and-Type.js-animation
+# Foundation-Web-HW-AOS-and-Type.js-animation

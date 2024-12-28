@@ -484,20 +484,16 @@
     </main>
 
     <button class="scroll-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
- <!-- Add AOS JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <!-- Add Typed.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 
     <script>
-        // Initialize AOS
         AOS.init({
             duration: 1000,
             once: true,
             mirror: false
         });
 
-        // Initialize Typed.js
         new Typed('#typed-text', {
             strings: ['Most Popular Courses', 'Featured Courses', 'Top-Rated Courses'],
             typeSpeed: 50,
@@ -506,7 +502,6 @@
             loop: true
         });
 
-        // Show/hide scroll to top button based on scroll position
         window.onscroll = function() {
             const scrollButton = document.querySelector('.scroll-top');
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -516,7 +511,6 @@
             }
         };
 
-        // Initialize scroll button as hidden
         document.querySelector('.scroll-top').style.display = 'none';
     </script>
 </body>
